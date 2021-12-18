@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1{
+    text-align: center;
+    margin:10px;
+}
+.container{
+    min-height: 75vh;
+    margin-top:10px;
+}
+.container h1{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+.myform{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.myInput{
+   width: 40%;
+   padding: 8px;
+   margin:10px;
+   border:2px solid rgb(241, 161, 161);
+   border-radius: 10px;
+   outline: none;
+}
+.btn{
+    padding:8px 10px;
+    font-size:15px;
+    border:3px solid black;
+    cursor:pointer;
+    background-color:rgb(233, 108, 108);
+    border-radius: 10px;
+    color:White;
+    margin:10px;
+}

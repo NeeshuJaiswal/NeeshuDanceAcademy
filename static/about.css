@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+ }
+ #about h1{
+     text-align: center;
+     padding-top: 10px;
+     color: rgb(41, 40, 40);
+
+ }
+ #about p{
+     text-align: center;
+     margin:20px 20px 0px 20px;
+     color: black;
+
+ }
+#about{
+    background-color: aquamarine;
+    height:250px;
+
+}
+#Team{
+    background-color: burlywood;
+    height:600px;
+}
+#Team h1{
+    text-align: center;
+    padding-top: 10px;
+}
+ 

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+#Services{
+    background-color: bisque;
+    height:350px;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.dance{
+    margin:5px;
+    padding:10px;
+}
+#transport{
+    height:400px;
+    background-color: cadetblue;
+    font-family: 'Lobster', cursive;
+}
+.facility img{
+    width:100%;
+}
+#canteen{
+    background-color: #58c9e3;
+    font-family: 'Lobster', cursive;
+    height:400px;
+}
+.canteens img{
+    height:350px;
+    width:100%;
+    object-fit:fill;
+}
+
+

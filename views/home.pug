@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts 
+    scripts(src='/jquery.js')
+block style 
+    style
+        include ../static/style.css
+block content 
+    section#intoSection 
+        div Welcome to Neeshu Dance Academy
+        div.small Live Learn dance
+    section#missionSection
+        h2 Our Mission
+        div.card
+           h3 We Teach From Starting Level
+           div.card-box
+                div.card-img 
+                    img(src="/static/image/image1.png")
+                div.card-content
+                    p We teach our learner from basic and train them in dancing.   
+        div.card
+           h3 We Provide best Training
+           div.card-box
+                div.card-img 
+                    img(src="/static/image/image8.png")
+                div.card-content
+                     p Our focus on trainnig to give best training to our learner.   
+        div.card
+           h3 Give best Talent 
+           div.card-box
+                div.card-img 
+                    img(src="/static/image/image3.png")
+                div.card-content
+                     p Our dance academy give best talent to dance industry.   
+    section#sponserSection 
+        h3 Our Sponsors 
+        div#sponsers 
+            img(src="/static/image/Sopnser2.jpg",alt="sponsor image",class="spImage")
+            img(src="/static/image/sponser6.png",alt="sponsor image",class="spImage")
+            img(src="/static/image/sponsor4.png",alt="sponsor image",class="spImage")
+            img(src="/static/image/sponsor5.png",alt="sponsor image",class="spImage")
